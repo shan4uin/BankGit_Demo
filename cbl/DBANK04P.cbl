@@ -45,6 +45,8 @@
          05  WS-RESP                               PIC S9(8) COMP.
          05  WS-BNKACC-FROM-RID                    PIC X(9).
          05  WS-BNKACC-TO-RID                      PIC X(9).
+         05  WS-TEST-TEXT                          PIC X(50) 
+             VALUE 'SECOND COMMIT TESTING...'.
 
        COPY CTSTAMPD.
 
